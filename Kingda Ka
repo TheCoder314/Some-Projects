@@ -1,0 +1,8 @@
+print('Please put your height in decimal feet please: ')
+height = input()
+if float(height) <4.5:
+ print('I am sorry, but you cannot ride, under 4.5ft')
+elif float(height) >6:
+   print('You cannot ride, over 6ft')
+else:
+    print('You can ride my roller coaster, Kingda Ka')
