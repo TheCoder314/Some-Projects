@@ -1,0 +1,8 @@
+loop = True 
+
+while loop:
+	name=input('Guess the 4-digit number lock: ')
+	if name == '3452':
+		print('Congrats, you got it')
+		loop = False
+		break
