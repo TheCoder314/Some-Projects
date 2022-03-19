@@ -1,0 +1,38 @@
+print("Welcome to the most exciting trivia game in history!!")
+
+playing = input("Do you want to play this amazing game? Type yes or no in lowercase. ")
+
+if playing != "yes":
+	quit()
+
+print("LETS PLAY!")
+
+answer = input("What is the square root of 1 million? Type in numerical form. ")
+if answer == "1000":
+	print('Correct! Good job!')
+else:
+	print('Sorry, that is incorrect! The correct answer was 1000')
+
+answer = input("Who is the CEO of Google as of January 2022? ")
+if answer == "Sundar Pichai":
+	print('Correct! Good job! Did you Google it?')
+else:
+	print('Sorry, that is incorrect! The correct answer was Sundar Pichai!')
+
+answer = input("Who was the author of the book Great Expectations? ")
+if answer == "Charles Dickens":
+	print('Correct! Good job!')
+else:
+	print('Sorry, that is incorrect! The correct answer was Charles Dickens!')
+
+answer = input("What does CPU stand for? ")
+if answer == "Central Processing Unit":
+	print('Correct! Good job!')
+else:
+	print('Sorry, that is incorrect! The correct answer was Central Processing Unit!')
+
+answer = input("What year did Albert Einstein win the Nobel Prize in physics? ")
+if answer == "1921":
+	print('Correct! Good job!')
+else:
+	print('Sorry, that is incorrect! The correct answer was 1921!')
