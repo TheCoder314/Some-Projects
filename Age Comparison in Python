@@ -1,0 +1,10 @@
+age = input('Input your age: ')
+
+if int(age) > 12:
+   print('Hey, you are older than me')
+
+elif int(age) < 12:
+   print('You are younger than me')
+else:
+   print('You are the same age as me')
+    
